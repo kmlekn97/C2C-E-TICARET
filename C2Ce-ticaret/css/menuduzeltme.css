@@ -1,0 +1,170 @@
+   @media (max-width: 750px) {
+
+        .user-account-info
+        {
+            visibility: hidden;
+        }
+
+        nav
+        {
+            position:fixed;
+            top:48px;
+            left:2px;
+            right:0;
+            margin:0;   
+            padding: 0;
+            background-color: #fff;
+        }
+
+        #logout-button
+        {
+            position:fixed;
+            top:10px;
+            left:80%;
+            right:30px;
+            margin:0;   
+            padding: 0;
+        }
+        ul li ul{
+            font-size: 8px;
+        }
+        .mega-menu-area
+        {
+            margin-left: -300%;
+            text-align: right;
+            float: left;
+        }
+
+
+
+
+
+    }
+    .mega-menu-area
+    {
+        margin-left: -300%;
+        text-align: right;
+        float: left;
+    }
+
+    @media (max-width:768px)
+    {
+       .logo-area
+       {
+        visibility: hidden;
+    }
+
+
+
+}
+
+@media (min-width:770px) and (max-width:862px)
+{
+    #login{
+        position:fixed;
+        top:10px;
+        left:80%;
+        right:50px;
+        margin:0;   
+        padding: 0;
+    }
+    #register
+    {
+        position:fixed;
+        top:37px;
+        left:80%;
+        right:50px;
+        margin:0;   
+        padding: 0;
+    }
+    #logout-button
+    {
+      position:fixed;
+      top:37px;
+      left:80%;
+      right:50px;
+      margin:0;   
+      padding: 0;
+  }
+  .user-account-info
+  {
+    position:fixed;
+    top:37px;
+    left:58%;
+    right:60px;
+    margin:0;   
+    padding: 0;
+}
+
+
+
+}
+
+
+
+
+
+
+@media (max-width:1367px)
+{
+    ul li ul{
+        font-size: 9px;
+    }
+
+    .mega-menu-area
+    {
+     margin-left: -230%;
+ }
+
+
+
+
+}
+
+
+@media (min-width:767px) and (max-width:1240px)
+{
+    ul li{
+        font-size: 12px;
+    }
+    ul li ul{
+        font-size: 9px;
+    }
+    
+
+    #mobile-menu-area
+    {
+        visibility: hidden;
+    }
+
+
+
+}
+
+
+.ayar{
+    position:fixed;
+    top:0;
+    left:45px;
+    right:0;
+    margin:0;   
+    padding: 0;
+    background-color: #fff;
+    margin-bottom: 10px;
+    height: 44px;
+    
+}
+
+.fix{
+    position:fixed;
+    top:0;
+    left:40px;
+    right:0;
+    margin:0;  
+
+
+}
+
+.kelimeler{width:155px;position:absolute;left:0px;top:25px;}
+
+.kelime{width:150px;height:150px;margin-bottom:1px;margin-top:10px;background-color:#f1f1f1;cursor:pointer;}

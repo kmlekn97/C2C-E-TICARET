@@ -1,0 +1,120 @@
+
+	.alert {
+		padding: 20px;
+		background-color: #f44336;
+		color: white;
+	}
+
+	.closebtn {
+		margin-left: 15px;
+		color: white;
+		font-weight: bold;
+		float: right;
+		font-size: 22px;
+		line-height: 20px;
+		cursor: pointer;
+		transition: 0.3s;
+	}
+
+	.closebtn:hover {
+		color: black;
+	}
+
+	img{
+
+		max-width: 100%;
+		height: auto;
+	}
+	div {
+		word-wrap: break-word;
+	}
+	@media (min-width:768px) and (max-width:1023px)
+	{
+
+
+
+		.fox-carousel
+		{
+			margin-top: 10rem;
+
+		}
+		.aciklama
+		{
+			width: 85%;
+		}
+		div #ozellik
+		{
+
+			width: 45rem;
+		}   
+
+
+
+
+	}
+	@media (min-width:1024px) and (max-width:1366px)
+	{
+
+
+
+		.fox-sidebar
+		{
+			margin-left: 12rem;
+		}
+		.fox-carousel
+		{
+			margin-top: 10rem;
+			width: 190%;
+		}
+		.aciklama
+		{
+			width: 183%;
+		}
+		div #ozellik
+		{
+
+			width: 60rem;
+		}   
+
+
+
+
+	}
+	@media (min-width:450px) and (max-width:650px) {
+		.aciklama
+		{
+			width: 55%;
+		}
+		div #ozellik
+		{
+
+			width: 31rem;
+		}   
+
+	}
+
+	@media screen and (max-width:445px) {
+		.aciklama
+		{
+			width: 57%;
+		}
+
+		div #ozellik
+		{
+
+			width: 102%;
+		}   
+
+		.fox-sidebar
+		{
+			margin-left: 0.1rem;
+		}
+
+
+	}
+
+	#ozellik
+	{
+
+		width: 180%;
+	}
